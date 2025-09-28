@@ -61,9 +61,10 @@ const Portfolio = () => {
         className="min-h-screen flex items-center justify-center text-center px-4"
       >
         <div>
-          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
+          <h1 className="text-6xl font-bold mb-6 leading-normal bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
             Yogesh Kumar B
           </h1>
+          <div className="my-8"></div>
           <p className="text-xl mb-6 max-w-2xl mx-auto text-gray-300">
             Software Development Engineer specializing in enterprise-grade
             backend systems
