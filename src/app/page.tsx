@@ -64,9 +64,16 @@ const Portfolio = () => {
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
             Yogesh Kumar B
           </h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-300">
-            Full Stack Developer specialized in React.js, Next.js, Java Spring
-            Boot, and Microservices
+          <p className="text-xl mb-6 max-w-2xl mx-auto text-gray-300">
+            Software Development Engineer specializing in enterprise-grade
+            backend systems
+          </p>
+          <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-400">
+            Building scalable microservices architecture with Java & Spring
+            Boot. Proven track record across{" "}
+            <strong> 5+ production-level projects </strong>
+            including payment integrations, banking systems, and distributed
+            applications.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -535,4 +542,4 @@ const Portfolio = () => {
     </div>
   );
 };
-export default Portfolio; 
+export default Portfolio;
